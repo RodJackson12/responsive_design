@@ -28,7 +28,20 @@ main {
         background-color: green;
         color: yellow;
     }
+    .post{
+        border: solid 1px;
+        padding: 9px;
+        width:30vw
+    }
+    .post h1{
 
+    }
+    .post p{
+        
+    }
+   .post-list{
+    padding: 9px;
+}
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -45,5 +58,17 @@ main {
         background-color: black;
         color: white;
     }
+    .post{
+        border: solid 1px;
 
+    }
+    .post h1{
+
+    }
+    .post p{
+         border: solid 1px;
+    }
+   .post-list{
+
+}
 }
